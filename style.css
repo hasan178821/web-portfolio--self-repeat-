@@ -30,6 +30,9 @@ p{
     .deeppink-highlight{
         color: #fa0667;
     }
+    .header-left{
+        padding-top: 50px;
+    }
     .fency-button{
         padding: 10px 25px;
         border-radius: 5px;
@@ -89,15 +92,23 @@ box-shadow: 10px 10px 40px gray;
 height: 300px;
 background-color: #fff;
 }
+
 #full-stack-dev{
     border-left: 10px solid;
-    border-image: linear-gradient(180deg, deeppink, pink);
+    border-image: linear-gradient(180deg, pink, deeppink);
     border-image-slice: 1;
 }
+.experiences-section .full-stack:hover {
+    background-image: linear-gradient(pink, deeppink);
+}
+
 #baby-dev{
     border-left: 10px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
+    border-image: linear-gradient(180deg, cyan, blue);
     border-image-slice: 1;
+}
+.experiences-section .baby:hover{
+    background-image: linear-gradient(cyan, blue);
 }
 /* Experiences Section End */
 
